@@ -11,6 +11,17 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class="navbar bg-light" id="nav">
+      <a class="navbar-brand" href="#">
+        <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzA3eHI0cDQwOGNzaHFydTRzcGxiMmdkbzBvcjlpc3dnMWV3ZWJybyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Wt1AywdiqCsFvKqFd7/giphy.gif" alt="popcorn" width="80" height="80">
+      </a>
+      <div class="text-box">
+        <a class="nav-link_1" href=# target="">My Lists</a>
+        <a class="nav-link_1" href="#">New Lists</a>
+      </div>
+    </div>
+    <div class="container">
+      <%= yield %>
+    </div>
   </body>
 </html>

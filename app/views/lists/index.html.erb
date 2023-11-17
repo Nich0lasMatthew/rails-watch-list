@@ -1,0 +1,15 @@
+<div class="banner">
+  <h1 id="title"> Save any kind of movies</h1>
+</div>
+
+<div class="lists">
+  <h1>My lists</h1>
+
+  <% @lists.each do |list| %>
+      <%= link_to list.name, list  %>
+  <% end %>
+
+  </div>
+    <%= link_to "Create a movie list", "/lists/new" %>
+  </div>
+<div>
