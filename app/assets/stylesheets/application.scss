@@ -31,11 +31,6 @@ body{
   color: white;
 }
 
-#nav{
-  background-color: black;
-  display: flex;
-  justify-content: space-between;
-}
 
 .text-box{
 display: flex;
@@ -48,8 +43,8 @@ padding-top: 10px;
   text-align: right;
   margin-left: auto;
   padding-right: 40px;
-  justify-content: center;
-  padding-top: 20px;
+  text-align: center;
+  padding-top: 10px;
 }
 
 .nav-link_1:hover {
@@ -81,4 +76,14 @@ padding-top: 10px;
   color: white;
   font-size: 80px;
   font-weight: 200;
+}
+
+.movieBtn{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+#redBtn{
+  border-radius: 5px;
 }

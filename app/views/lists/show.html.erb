@@ -1,9 +1,8 @@
+<div class="show-banner">
+  <h1 id="show-title"> Classic</h1>
+</div>
+
 <div class="container">
-
-  <div class="show-banner">
-    <h1 id="show-title"> Classic</h1>
-  </div>
-
   <% @list.bookmarks.each do |bookmark| %>
       <%= bookmark.movie.title %>
       <%= bookmark.comment %>
